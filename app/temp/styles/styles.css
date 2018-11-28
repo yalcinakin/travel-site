@@ -948,3 +948,25 @@ a{
     height: 64px;
     background-position: 64.321608040201% 99.62096774193549%;
   }
+
+.site-footer{
+  background-color: #2f5572;
+  color: #fff;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.site-footer__text{
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+  }
+
+@media(min-width: 800px){
+
+.site-footer__text{
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 1.4rem
+  }
+  }
